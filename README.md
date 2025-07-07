@@ -1,4 +1,4 @@
-# 📋 Advanced Todo App - Flutter + Hive ✨📝📦
+# 📋 Todo App - Flutter + Hive ✨📝📦
 
 This is an advanced **Flutter Todo List App** built with the **Hive NoSQL database**, featuring dark mode toggle, reminders, due dates, and smooth animations. 🧠📲🗂️
 
@@ -53,9 +53,9 @@ class Todo extends HiveObject {
 }
 ```
 
-* Represents a todo item 🗒️📌🧠
-* Annotated with Hive fields for local storage 💾🛢️📊
-* Includes optional due date and reminder ⏰📆🔔
+* Represents a todo item 
+* Annotated with Hive fields for local storage 
+* Includes optional due date and reminder ⏰
 
 ---
 
@@ -71,7 +71,7 @@ class TodoAdapter extends TypeAdapter<Todo> {
 
 ---
 
-### `TodoApp` Widget 📱🌐🧭
+### `TodoApp` Widget 
 
 ```dart
 class TodoApp extends StatelessWidget { ... }
@@ -122,23 +122,23 @@ class AddEditTodoBottomSheet extends StatefulWidget { ... }
 
 ---
 
-## 💾 Hive Boxes Used 📦📘📚
+## 💾 Hive Boxes Used 
 
 * \`\` → stores all Todo objects
 * \`\` → stores boolean `isDarkMode` flag
 
 ---
 
-## 📱 UI Design 🎨🧩📐
+## 📱 UI Design
 
-* Uses `Material3` design 📑🧱📱
-* Colors, icons, spacing handled via `ThemeData` 🎨🔧🖍️
-* Animations for fade-in and list card styling 🎞️🗂️💫
-* Responsive and clean layout with `ListTile`, `Cards`, and `Dialogs` 🧼📋🪄
+* Uses `Material3` design 
+* Colors, icons, spacing handled via `ThemeData` 
+* Animations for fade-in and list card styling 
+* Responsive and clean layout with `ListTile`, `Cards`, and `Dialogs` 
 
 ---
 
-## 🔧 Dependencies 📦🛠️📄
+## 🔧 Dependencies 📦
 
 ```yaml
 dependencies:
@@ -160,7 +160,7 @@ flutter packages pub run build_runner build --delete-conflicting-outputs
 
 ---
 
-## 📎 Conclusion 🧠✅📌
+## 📎 Conclusion 📌
 
 This app is a great example of building a modern, persistent, and interactive todo application with Flutter and Hive. You can extend it with: 🚀🧱🛠️
 
@@ -171,6 +171,6 @@ This app is a great example of building a modern, persistent, and interactive to
 
 ---
 
-## 👨‍💻 Author 🧑‍💻📣📨
+## 👨‍💻 Author 🧑‍💻
 
-**Built by Frank Olien** ✍️📦🎯
+**Frank Olien** ✍
