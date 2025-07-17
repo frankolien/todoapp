@@ -45,13 +45,6 @@ class AddEditTodoBottomSheet extends StatefulWidget { ... }
 
 ---
 
-## 💾 Hive Boxes Used 
-
-* \`\` → stores all Todo objects
-* \`\` → stores boolean `isDarkMode` flag
-
----
-
 ## 📱 UI Design
 
 * Uses `Material3` design 
